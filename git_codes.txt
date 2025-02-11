@@ -1,0 +1,13 @@
+open git shell from the folder of project
+$git init // initialized git repo
+$touch .gitignore // list all non tracking files in the .gitignore file
+$git add. //add all non gitignore files to staging
+$git status //check correct files are staged
+$git config --global user.name "Rajendra Warke" //set global variable user.name
+$git config --global user.email "rajendra.warke@outlook.com" //set global variable user.email
+$git commit -m "Initial Commit to Initialize Repo" //first git commit to create local repo on laptop project folder
+$git branch -m main //rename default branch name from master to main
+$git log --all --oneline //list all commits
+Create a gitHub repository and copy the repo path
+$git remote add origin https://github.com/rajendrawarke/pimaGroupProject.git //link remote repo to local repo
+$git push -u origin main //push local repo to remote repo
